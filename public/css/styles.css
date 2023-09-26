@@ -249,6 +249,10 @@ footer p{
   padding-left: 5px;
 }
   
+.holding-usd-center{
+  text-align: center;
+}
+
   @media (min-width: 361px){
     main section article .description{
         display: block;
@@ -275,6 +279,7 @@ footer p{
     .price,
     .discount{
         width: 50%;
+        font-size: 16px;
     }
     div.burger-menu{
       text-align: center;
@@ -337,12 +342,12 @@ input[type="reset"]{
 }
 
 .iconos i {
-  font-size: 16px; /* Tamaño de los íconos */
-  transition: color 0.3s; /* Transición de cambio de color */
+  font-size: 16px; 
+  transition: color 0.3s; 
 }
 
 .iconos i:hover {
-  color: #000; /* Cambia el color al pasar el mouse por encima */
+  color: #000; 
 }
 div.burger-menu i{
   background-color: #0044AA;
